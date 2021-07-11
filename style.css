@@ -1,12 +1,140 @@
 body {
-    background: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #303030;
+    background:white;
+     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     margin: 0;
     padding: 0;
+    }
+    header {
+        padding: px;
+        text-align: center;
+        height: 60px;
+        background-color: rgb(0, 50, 63);
+        
+        background-position: center;
+    }
+    header .logo a {
+        background-size: 300px;
+        display: inline-block;
+        width: 300px;
+        display: inline-block;
+        text-indent: -999999;
+        height: 150px;
+        background-repeat: no-repeat;
+        top: 60px;
+        position: relative;
+    }
+    section {
+        background: rgb(251, 252, 236);
+        color: rgb(0, 50, 63);
+        padding: 20px;
+        text-align: center;
+        height: 500px;
+    }
+    div {
+background: #303030;
+        width: 100px;
+        margin: auto;
+    }
+footer {
+    background: white;
+    padding: 10px 20px;
+    height: 700px;
 }
-header {
-    background-color: #303030;
-    color: #ffffff;
-    top 0;
+ul {
+    list-style-type: none;
+}
+li {
+display: inline-block;
+margin-right: 20px;
+bottom: 1000;
+color: rgb(0, 50, 63);; 
+} 
+a { 
+text-decoration: none;
+} 
+a:hover { 
+text-decoration:  black;
+} 
+
+a {
+color:white;;
+}  
+.ci { 
+height: 300px;;
+position: absolute;
+right: 0%;
+box-shadow: rgb(15, 15, 15) 0 0 20px;
+border-radius: 50%;
+} 
+
+h2 { 
+position: absolute;
+bottom: 40%;
+left: 20%;
+}
+.ci :hover{
+transform: rotate(10deg);
+}
+
+.next { 
+height: 800px;
+color: #303030;
+}
+
+.nice {
+    height: 500px;
+    border-radius: 20%;
+    left: 20%;
+    size: 60%;
+    position: absolute;
+    top: 5%;
+}
+.Link2 {
+top: 2.5%;
+position: absolute;
+right: 10%;
+height: 30px;
+} 
+.Link2:hover {
+color: rgb(246, 248, 209);
+
+}
+
+.Link1{
+top: 2.5%;
+position: absolute;
+right: 20%;
+size: 150%;
+height: 30px;
+}
+.Link1:hover {
+color:  rgb(246, 248, 209);
+}
+h1 {
+c: 200px;
+right: 50%;
+position: absolute;
+text-align: center;
+bottom: 80%;
+right: 40%;
+}
+.Top {
+    position: absolute;
+    color:white;
+    left: 8%;
+    top: 0.1%;
+}
+.Description {
+    color: rgb(0, 50, 63);
+    position: absolute;
+    left: 35%;
+    bottom: 3%;
+    size: 150%;
+}
+.Choose {
+position: absolute;
+bottom: 15%;
+left: 40%;
+color: rgb(0, 50, 63);
 }
